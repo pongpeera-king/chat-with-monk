@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_URL = 'http://localhost:3000/chat';
+const API_URL = '/chat';
 
 export default function ChatPage() {
   const [messages, setMessages] = useState([]);
