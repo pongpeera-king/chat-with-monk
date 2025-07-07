@@ -103,7 +103,7 @@ export default function ChatPage() {
               margin: '16px 0'
             }}>
               {msg.sender === 'bot' && (
-                <img src="/src/assets/monk.png" alt="" height={'28px'} width={'28px'} style={{ marginRight: 8 }} />
+                <img src="/monk.png" alt="" height={'28px'} width={'28px'} style={{ marginRight: 8 }} />
               )}
               <span style={{
                 display: 'inline-block',
